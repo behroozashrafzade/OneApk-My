@@ -43,6 +43,7 @@ namespace MauiApp1.ViewModel
 
         async Task Tap(string s)
         {
+
             await Shell.Current.GoToAsync($"{nameof(DetailPage)}?Text={s}");
         }
 
